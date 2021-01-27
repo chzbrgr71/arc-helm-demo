@@ -11,3 +11,5 @@ spec:
     path: charts/rabbit-mq
 #  values:
 #    serviceName: arc-k8s-demo
+#    auth.username: admin
+#    auth.password: secretpassword
