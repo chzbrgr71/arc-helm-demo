@@ -10,6 +10,6 @@ spec:
     ref: master
     path: charts/rabbit-mq
   values:
-    auth.username: admin
-    auth.password: SecretPassword123!
+#    auth.username: admin
+#    auth.password: SecretPassword123!
     replicaCount: 2
