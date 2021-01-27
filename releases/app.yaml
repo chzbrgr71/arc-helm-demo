@@ -9,7 +9,7 @@ spec:
     git: https://github.com/chzbrgr71/arc-helm-demo
     ref: master
     path: charts/rabbit-mq
-#  values:
-#    serviceName: arc-k8s-demo
-#    auth.username: admin
-#    auth.password: secretpassword
+  values:
+    auth.username: admin
+    auth.password: SecretPassword123!
+    replicaCount: 2
